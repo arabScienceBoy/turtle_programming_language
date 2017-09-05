@@ -1,0 +1,18 @@
+TO star
+  Repeat 5 [Forward 100, Right 144]
+END
+
+TO bar
+  Forward 200 star tata
+END
+
+TO mo
+  Repeat 20 [Forward 20 Right 90 bar]
+END
+
+ko
+
+mo
+Repeat 20 [Forward 20 Right 90 star]
+
+**Repeat 20 [Forward 20 Right 90 Repeat 5 [Forward 100, Right 144]]

@@ -1,0 +1,10 @@
+Repeat 8 [
+  Repeat 2 [
+    Forward 100
+    Right 135
+    Forward 20
+    Right 45
+  ]
+  Left 135
+  Forward 20
+]

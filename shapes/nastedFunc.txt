@@ -1,0 +1,22 @@
+** advanced shapes!
+TO star :times :length :angle
+  Repeat :times [Forward :length Right :angle]
+END
+
+TO manystars :n :size
+  Penup
+  Backward 150
+  Pendown
+  Left 55
+  Repeat :n [
+    Forward :size
+    Right 144
+    Repeat :n [Forward :size star :n :size 144]
+  ]
+END
+
+TO runall
+  manystars 5 60
+END
+
+runall

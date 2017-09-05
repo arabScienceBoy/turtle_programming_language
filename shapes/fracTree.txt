@@ -1,0 +1,15 @@
+Penup
+Backward 200
+Pendown
+TO tree :depth :length :scale :angle
+  If :depth == 0 [Stop]
+  Forward :length
+  Right :angle
+  tree :depth - 1 :length * :scale :scale :angle
+  Left 2 * :angle
+  tree :depth - 1 :length * :scale :scale :angle
+  Right :angle
+  Backward :length
+END
+
+tree 11 150 0.7 30

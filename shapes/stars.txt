@@ -1,0 +1,20 @@
+Color red
+Repeat 5 [Forward 100, Right 144]
+Penup
+Forward 150
+Right 90
+Pendown
+Color blue
+Repeat 5 [Forward 100, Right 144]
+Penup
+Forward 150
+Right 90
+Pendown
+Color black
+Repeat 5 [Forward 100, Right 144]
+Penup
+Forward 150
+Right 90
+Pendown
+Color green
+Repeat 5 [Forward 100, Right 144]

@@ -1,0 +1,22 @@
+TO muster :h
+  Penup
+  Forward 100
+  Pendown
+  ** Color green
+  Repeat :h [
+    Repeat 5 [
+      Repeat 5 [Forward 50 Left 45 Backward 50]
+      Repeat 5 [Forward 50 Backward 50 Left 120]
+    ]
+  ]
+END
+
+TO func :x :y :z
+  Penup
+  Forward 100
+  Pendown
+  Repeat :x [Forward :y Right :z]
+  muster :x
+END
+
+func 6 100 144

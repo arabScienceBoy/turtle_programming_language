@@ -1,0 +1,7 @@
+TO spiral :size :angle
+  If :size > 100 [Stop]
+  Forward :size
+  Right :angle
+  spiral :size + 2 :angle
+END
+spiral 0 91

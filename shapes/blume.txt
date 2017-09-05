@@ -1,0 +1,18 @@
+TO kreis :gr
+  Repeat 360 [Forward :gr Right 1]
+END
+
+TO blume :gr
+Repeat 10 [kreis :gr Right 36]
+END
+
+blume 0.8
+
+TO test :g
+  Forward 100
+  Stop
+  Right 20
+  Forward 100
+END
+
+**Repeat 1 [Forward 100 Stop Right 20]

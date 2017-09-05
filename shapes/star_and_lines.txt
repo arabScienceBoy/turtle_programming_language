@@ -1,0 +1,16 @@
+Repeat 5 [Right 144, Forward 50]
+Penup Forward 150 Right 120 Pendown
+Repeat 5 [Right 144, Forward 50]
+Penup Forward 150 Right 120 Pendown
+Repeat 5 [Right 144, Forward 50]
+Penup Forward 150 Left 90 Right 120 Forward 100 Pendown
+Forward 50
+Backward 50
+Right 45
+Forward 50
+Backward 50
+Right 45
+Forward 50
+Backward 50
+Right 45
+Forward 50

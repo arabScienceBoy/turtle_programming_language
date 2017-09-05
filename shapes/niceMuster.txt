@@ -1,0 +1,71 @@
+** Mehrere Schreibweisen:
+** Mit Komma oder ohne (Abstand stattdessen)
+** Hier ohne Komma und Listen koennen in neue Zeilen geschrieben werden
+Repeat 4 [Repeat 5 [Repeat 5 [Forward 50 Left 45 Backward 50]
+                    Repeat 5 [Forward 50 Backward 50 Left 120]
+                    ]
+         ]
+
+** Hier ist die typische Schreibweise (schlecht lesbar!)
+Penup
+Forward 100
+Pendown
+** Color cyan
+Repeat 4 [Repeat 5 [Repeat 5 [Forward 50, Left 45, Backward 50], Repeat 5 [Forward 50, Backward 50, Left 120]]]
+
+
+** Hier ohne Kommas, und Elemente von Listen in neuen Zeilen geschrieben (gut lesbar!)
+Penup
+Forward 100
+Pendown
+** Color yellow
+Repeat 4 [
+  Repeat 5 [
+    Repeat 5 [Forward 50 Left 45 Backward 50]
+    Repeat 5 [Forward 50 Backward 50 Left 120]
+  ]
+]
+
+** Hier wie die Style von imparativen Programmiersprachen wie c
+Penup
+Forward 100
+Pendown
+** Color red
+Repeat 4
+[
+  Repeat 5 
+  [
+    Repeat 5
+    [
+      Forward 50 Left 45 Backward 50
+    ]
+    Repeat 5
+    [
+      Forward 50 Backward 50 Left 120
+    ]
+  ]
+]
+
+
+** Einfache Wiederholungen
+Penup
+Forward 100
+Pendown
+** Color blue
+Repeat 4 [
+  Repeat 5 [
+    Repeat 5 [Forward 50 Left 45 Backward 50]
+    Repeat 5 [Forward 50 Backward 50 Left 120]
+  ]
+]
+
+Penup
+Forward 100
+Pendown
+** Color green
+Repeat 4 [
+  Repeat 5 [
+    Repeat 5 [Forward 50 Left 45 Backward 50]
+    Repeat 5 [Forward 50 Backward 50 Left 120]
+  ]
+]

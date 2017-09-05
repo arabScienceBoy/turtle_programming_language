@@ -1,0 +1,19 @@
+** With Function. Still without any given arguments!
+TO muster
+  Penup
+  Forward 100
+  Pendown
+  ** Color green
+  Repeat 4 [
+    Repeat 5 [
+      Repeat 5 [Forward 50 Left 45 Backward 50]
+      Repeat 5 [Forward 50 Backward 50 Left 120]
+    ]
+  ]
+END
+
+TO manymusters
+  Repeat 6 [muster Right 30 Forward 60]
+END
+
+manymusters

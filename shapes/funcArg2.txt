@@ -1,0 +1,10 @@
+
+TO star :times :length :angle
+  Repeat :times [Forward :length Right :angle]
+END
+
+TO stars :n :angle
+  Repeat :n [Right :angle Forward 50 star :n 100 :angle]
+END
+
+stars 5 144

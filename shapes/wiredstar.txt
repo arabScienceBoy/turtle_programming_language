@@ -1,0 +1,8 @@
+Repeat 12 [
+  Right 30
+  Right 45
+  Forward 56
+  Left 135
+  Forward 40
+  Right 90
+]
